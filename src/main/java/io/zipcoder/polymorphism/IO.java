@@ -4,6 +4,12 @@ public class IO {
 
     Pet[] pets;
 
+    public int getLength(){
+        return pets.length;
+    }
+
+
+
     public void takeInitialInput(){
         int size = Console.getIntegerInput("How many cats, dogs, and hamsters do you have?");
         pets = new Pet[size];
