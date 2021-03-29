@@ -8,6 +8,10 @@ public class IO {
         return pets.length;
     }
 
+    public void setPets(Pet[] pets){
+        this.pets = pets;
+    }
+
 
 
     public void takeInitialInput(){
